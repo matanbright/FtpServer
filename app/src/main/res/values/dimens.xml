@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <dimen name="default_view_margin">10dp</dimen>
+    <dimen name="small_view_margin">5dp</dimen>
+    <dimen name="default_view_padding">10dp</dimen>
+
+    <dimen name="title_text_size">30sp</dimen>
+    <dimen name="subtitle_text_size">20sp</dimen>
+    <dimen name="small_text_size">11sp</dimen>
+
+    <dimen name="app_logo_square_size">300dp</dimen>
+    <dimen name="app_logo_padding">50dp</dimen>
+</resources>

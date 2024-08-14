@@ -1,0 +1,13 @@
+'FTP Server' is licensed under 'Apache License 2.0' [see 'LICENSE.txt' file].
+Copyright © 2024 Matan Brightbert.
+
+This program uses 'Apache FtpServer' which is licensed under 'Apache License 2.0' [see 'LICENSE.txt' file].
+Copyright © 2003-2022 The Apache Software Foundation.
+
+This program uses 'Apache Mina' which is licensed under 'Apache License 2.0' [see 'LICENSE.txt' file].
+Copyright © 2003-2022 The Apache Software Foundation.
+
+This program uses 'slf4j' which is licensed under 'MIT License' [see 'LICENSE-MIT.txt' file].
+Copyright © 2004-2022 QOS.ch Sarl (Switzerland).
+
+Android™ is a trademark of Google LLC.

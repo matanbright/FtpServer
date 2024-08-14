@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="app_icon_background">#FFFFFF</color>
+    <color name="notification_icon_background">#FFC90E</color>
+
+    <color name="button_glyph_while_normal">#FFFFFF</color>
+    <color name="button_glyph_while_pressed">#DBDBDB</color>
+    <color name="button_glyph_while_disabled">#6E6E6E</color>
+
+    <color name="link">#7181F2</color>
+
+    <color name="background_while_server_is_not_running">#552727</color>
+    <color name="background_while_server_is_changing_state">#554727</color>
+    <color name="background_while_server_is_running">#325727</color>
+</resources>

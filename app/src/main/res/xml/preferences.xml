@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.preference.PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:key="@string/preference_category_key__ftp_server_settings"
+        android:title="@string/preference_category__ftp_server_settings">
+        <EditTextPreference
+            android:key="@string/preference_key__ftp_server_port"
+            android:title="@string/preference__ftp_server_port"
+            android:defaultValue="2121"
+            app:useSimpleSummaryProvider="true" />
+        <CheckBoxPreference
+            android:key="@string/preference_key__ftp_server_enable_authentication"
+            android:title="@string/preference__ftp_server_enable_authentication"
+            android:defaultValue="false" />
+        <EditTextPreference
+            android:key="@string/preference_key__ftp_server_user_name"
+            android:title="@string/preference__ftp_server_user_name"
+            android:dependency="@string/preference_key__ftp_server_enable_authentication"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            android:key="@string/preference_key__ftp_server_user_password"
+            android:title="@string/preference__ftp_server_user_password"
+            android:dependency="@string/preference_key__ftp_server_enable_authentication"
+            app:useSimpleSummaryProvider="true" />
+        <CheckBoxPreference
+            android:key="@string/preference_key__ftp_server_enable_encryption"
+            android:title="@string/preference__ftp_server_enable_encryption"
+            android:defaultValue="false" />
+        <EditTextPreference
+            android:key="@string/preference_key__ftp_server_encryption_keystore_file_path"
+            android:title="@string/preference__ftp_server_encryption_keystore_file_path"
+            android:dependency="@string/preference_key__ftp_server_enable_encryption"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            android:key="@string/preference_key__ftp_server_encryption_key_alias"
+            android:title="@string/preference__ftp_server_encryption_key_alias"
+            android:dependency="@string/preference_key__ftp_server_enable_encryption"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            android:key="@string/preference_key__ftp_server_encryption_key_password"
+            android:title="@string/preference__ftp_server_encryption_key_password"
+            android:dependency="@string/preference_key__ftp_server_enable_encryption"
+            app:useSimpleSummaryProvider="true" />
+        <CheckBoxPreference
+            android:key="@string/preference_key__ftp_server_force_encryption"
+            android:title="@string/preference__ftp_server_force_encryption"
+            android:dependency="@string/preference_key__ftp_server_enable_encryption"
+            android:defaultValue="false" />
+        <CheckBoxPreference
+            android:key="@string/preference_key__ftp_server_enable_writing"
+            android:title="@string/preference__ftp_server_enable_writing"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/preference_category__application_settings">
+        <ListPreference
+            android:key="@string/preference_key__keep_device_awake"
+            android:title="@string/preference__keep_device_awake"
+            android:entries="@array/keep_device_awake_options"
+            android:entryValues="@array/keep_device_awake_options"
+            android:defaultValue="@string/keep_device_awake_option__never"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory>
+        <Preference
+            android:key="@string/preference_key__about"
+            android:title="@string/preference__about"
+            android:persistent="false" />
+    </PreferenceCategory>
+
+</androidx.preference.PreferenceScreen>

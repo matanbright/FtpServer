@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">FTP Server</string>
+
+    <string name="about__app_version">Version: 1.0.0</string>
+    <string name="about__app_copyright">Copyright © 2024 Matan Brightbert</string>
+    <string name="about__app_license">\'FTP Server\' is licensed under \'Apache License 2.0\'.</string>
+    <string name="about__app_libraries">
+        This program uses the following libraries:\n
+        • \'Apache FtpServer\' (v1.2.0) which is licensed under \'Apache License 2.0\'.\n
+          Copyright © 2003-2022 The Apache Software Foundation.\n
+        • \'Apache Mina\' (v2.1.6) which is licensed under \'Apache License 2.0\'.\n
+          Copyright © 2003-2022 The Apache Software Foundation.\n
+        • \'slf4j\' (v1.7.36) which is licensed under \'MIT License\'.\n
+          Copyright © 2004-2022 QOS.ch Sarl (Switzerland).
+    </string>
+
+    <string name="error_message__no_permissions">Error: No permissions!</string>
+    <string name="error_message__unable_to_start_the_server">Error: Unable to start the server!</string>
+    <string name="error_message__unable_to_open_the_file">Error: Unable to open the file!</string>
+
+    <string name="message__supported_keystore_type">Supported keystore type: %1$s</string>
+
+    <string name="preference_category_key__ftp_server_settings">ftp_server_settings</string>
+
+    <string name="preference_key__ftp_server_port">ftp_server_port</string>
+    <string name="preference_key__ftp_server_enable_authentication">ftp_server_enable_authentication</string>
+    <string name="preference_key__ftp_server_user_name">ftp_server_user_name</string>
+    <string name="preference_key__ftp_server_user_password">ftp_server_user_password</string>
+    <string name="preference_key__ftp_server_enable_encryption">ftp_server_enable_encryption</string>
+    <string name="preference_key__ftp_server_encryption_keystore_file_path">ftp_server_encryption_keystore_file_path</string>
+    <string name="preference_key__ftp_server_encryption_key_alias">ftp_server_encryption_key_alias</string>
+    <string name="preference_key__ftp_server_encryption_key_password">ftp_server_encryption_key_password</string>
+    <string name="preference_key__ftp_server_force_encryption">ftp_server_force_encryption</string>
+    <string name="preference_key__ftp_server_enable_writing">ftp_server_enable_writing</string>
+    <string name="preference_key__keep_device_awake">keep_device_awake</string>
+    <string name="preference_key__about">about</string>
+
+    <string name="preference_category__ftp_server_settings">FTP Server Settings</string>
+    <string name="preference_category__application_settings">Application Settings</string>
+
+    <string name="preference__ftp_server_port">Port</string>
+    <string name="preference__ftp_server_enable_authentication">Enable Authentication</string>
+    <string name="preference__ftp_server_user_name">Username</string>
+    <string name="preference__ftp_server_user_password">Password</string>
+    <string name="preference__ftp_server_enable_encryption">Enable Encryption</string>
+    <string name="preference__ftp_server_encryption_keystore_file_path">Keystore File Path</string>
+    <string name="preference__ftp_server_encryption_key_alias">Key Alias</string>
+    <string name="preference__ftp_server_encryption_key_password">Key Password</string>
+    <string name="preference__ftp_server_force_encryption">Force Encryption</string>
+    <string name="preference__ftp_server_enable_writing">Enable Writing</string>
+    <string name="preference__keep_device_awake">Keep Device Awake</string>
+    <string name="preference__about">About</string>
+
+    <string name="keep_device_awake_option__never">Never</string>
+    <string name="keep_device_awake_option__keep_screen_on_while_server_is_running_and_app_is_open">By keeping the screen on while the server is running and the app is open</string>
+    <string name="keep_device_awake_option__keep_cpu_on_as_long_as_server_is_running">By keeping the CPU on as long as the server is running</string>
+
+    <string name="notification_message__ftp_server_is_running">FTP Server is running…</string>
+
+    <string name="dialog_title__ftp_server_endpoints">FTP Server Endpoints</string>
+
+    <string name="button_text__enable">Enable</string>
+    <string name="button_text__enabling">Enabling…</string>
+    <string name="button_text__disable">Disable</string>
+    <string name="button_text__disabling">Disabling…</string>
+    <string name="button_text__close">Close</string>
+
+    <string name="link_text__show_more_ftp_server_endpoints">(+)</string>
+    <string name="link_text__view_apache_license">Click here to view \'Apache License 2.0\'</string>
+    <string name="link_text__view_mit_license">Click here to view \'MIT License\'</string>
+
+    <string name="ftp_server_status__server_is_not_running">FTP server is not running</string>
+    <string name="ftp_server_status__server_is_running">FTP server is running</string>
+
+    <string name="ftp_server_details__endpoint">Endpoint: </string>
+</resources>

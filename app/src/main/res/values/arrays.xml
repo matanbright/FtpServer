@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <array name="keep_device_awake_options">
+        <item>@string/keep_device_awake_option__never</item>
+        <item>@string/keep_device_awake_option__keep_screen_on_while_server_is_running_and_app_is_open</item>
+        <item>@string/keep_device_awake_option__keep_cpu_on_as_long_as_server_is_running</item>
+    </array>
+</resources>
